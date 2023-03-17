@@ -1,0 +1,16 @@
+ALTER TABBLE table_name
+ADD column_name datatype;
+____________________________
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+___________________________
+INSERT INTO table_name
+VALUES (value1, value2, ...)
+
+___________________________
+
+SELECT column_name(s)
+FROM table1
+INNER JOIN table2 ON table1.column_name = table2.column_name;
