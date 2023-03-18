@@ -1,0 +1,5 @@
+db.products.insertOne({_id: 1, name: "Pen", price: 1.20})
+db.collections.insertOne({})
+____________________________
+db.products.find()
+db.collections.find()
