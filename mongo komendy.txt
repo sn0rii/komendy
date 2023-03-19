@@ -3,3 +3,6 @@ db.collections.insertOne({})
 ____________________________
 db.products.find()
 db.collections.find()
+_____________________
+
+delete: <collection>
