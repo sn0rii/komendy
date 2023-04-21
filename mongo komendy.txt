@@ -7,3 +7,5 @@ ____________________________
 db.products.updateOne({_id:1}, {$set: {stock: 32}})
 ____________________________
 db.products.deleteOne({_id:2})
+
+await Adventure.findOne({ country: 'Croatia' }).exec();
