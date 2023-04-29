@@ -1,15 +1,15 @@
 ALTER TABBLE table_name
 ADD column_name datatype;
-____________________________
+____________________
 UPDATE table_name
 SET column1 = value1, column2 = value2, ...
 WHERE condition;
 
-___________________________
+____________________
 INSERT INTO table_name
 VALUES (value1, value2, ...)
 
-___________________________
+____________________
 
 SELECT column_name(s)
 FROM table1
